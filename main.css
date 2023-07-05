@@ -1,77 +1,77 @@
 body {
-  background-color: #f0f5f9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
+  background-color: #f0f5f9; /* Define a cor de fundo do corpo da página como um tom claro de azul */
+  display: flex; /* Cria um contêiner flexível para organizar os elementos filhos */
+  flex-direction: column; /* Empilha os elementos filhos verticalmente dentro do contêiner */
+  align-items: center; /* Centraliza verticalmente os elementos filhos */
+  padding-top: 20px; /* Adiciona um espaçamento de 20 pixels na parte superior do corpo */
 }
 
 header {
-  text-align: center;
-  margin-bottom: 20px;
+  text-align: center; /* Centraliza o conteúdo do cabeçalho horizontalmente */
+  margin-bottom: 20px; /* Adiciona um espaçamento de 20 pixels na parte inferior do cabeçalho */
 }
 
 header img {
-  width: 150px;
-  height: auto;
-  margin-bottom: 20px;
-  border-radius: 50%;
+  width: 150px; /* Define a largura da imagem do cabeçalho como 150 pixels */
+  height: auto; /* A altura da imagem é ajustada automaticamente para manter a proporção */
+  margin-bottom: 20px; /* Adiciona um espaçamento de 20 pixels na parte inferior da imagem do cabeçalho */
+  border-radius: 50%; /* Aplica um efeito de borda arredondada à imagem do cabeçalho */
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: flex; /* Cria um contêiner flexível para organizar os elementos do formulário */
+  flex-direction: column; /* Empilha os elementos do formulário verticalmente dentro do contêiner */
+  align-items: center; /* Centraliza verticalmente os elementos do formulário */
 }
 
 form label {
-  color: #4285f4;
-  font-weight: bold;
-  margin-bottom: 5px;
+  color: #4285f4; /* Define a cor do texto das etiquetas como azul */
+  font-weight: bold; /* Define o peso da fonte das etiquetas como negrito */
+  margin-bottom: 5px; /* Adiciona um espaçamento de 5 pixels na parte inferior das etiquetas */
 }
 
 form input[type="text"] {
-  width: 250px;
-  padding: 10px;
-  border: 1px solid #4285f4;
-  border-radius: 4px;
-  margin-bottom: 10px;
+  width: 250px; /* Define a largura dos campos de texto como 250 pixels */
+  padding: 10px; /* Adiciona um espaçamento interno de 10 pixels nos campos de texto */
+  border: 1px solid #4285f4; /* Define uma borda de 1 pixel sólido na cor azul para os campos de texto */
+  border-radius: 4px; /* Aplica um efeito de borda arredondada aos campos de texto */
+  margin-bottom: 10px; /* Adiciona um espaçamento de 10 pixels na parte inferior dos campos de texto */
 }
 
 form button {
-  background-color: #4285f4;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
+  background-color: #4285f4; /* Define a cor de fundo do botão como azul */
+  color: #ffffff; /* Define a cor do texto do botão como branco */
+  border: none; /* Remove a borda do botão */
+  padding: 10px 20px; /* Adiciona um espaçamento interno de 10 pixels na parte superior e inferior e 20 pixels nas laterais do botão */
+  border-radius: 4px; /* Aplica um efeito de borda arredondada ao botão */
+  cursor: pointer; /* Altera o cursor do mouse para um ponteiro ao passar por cima do botão */
 }
 
 .error-message,
 .error-nome,
 .error-telefone {
-  color: red;
-  display: none;
-  margin-bottom: 10px;
+  color: red; /* Define a cor do texto das mensagens de erro como vermelho */
+  display: none; /* Oculta inicialmente as mensagens de erro */
+  margin-bottom: 10px; /* Adiciona um espaçamento de 10 pixels na parte inferior das mensagens de erro */
 }
 
 table {
-  width: 400px;
-  border-collapse: collapse;
-  margin-top: 20px;
+  width: 400px; /* Define a largura da tabela como 400 pixels */
+  border-collapse: collapse; /* Remove os espaçamentos entre as células da tabela */
+  margin-top: 20px; /* Adiciona um espaçamento de 20 pixels na parte superior da tabela */
 }
 
 table th,
 table td {
-  padding: 10px;
-  border: 1px solid #4285f4;
+  padding: 10px; /* Adiciona um espaçamento interno de 10 pixels nas células da tabela */
+  border: 1px solid #4285f4; /* Define uma borda de 1 pixel sólido na cor azul para as células da tabela */
 }
 
 table th {
-  background-color: #4285f4;
-  color: #ffffff;
+  background-color: #4285f4; /* Define a cor de fundo das células de cabeçalho como azul */
+  color: #ffffff; /* Define a cor do texto das células de cabeçalho como branco */
 }
 
 table td {
-  text-align: center;
+  text-align: center; /* Centraliza o conteúdo das células da tabela horizontalmente */
 }
