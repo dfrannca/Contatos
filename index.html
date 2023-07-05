@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>CONTATOS</title>
+</head>
+
+<body>
+  <header>
+    <img src="/images/contatos.png.webp" alt="imagem contato">
+  </header>
+  <form id="form-contato">
+    <label for="nome">Nome:</label>
+    <!-- O atributo 'pattern' define o padrão de entrada aceito para o campo de nome -->
+    <input type="text" id="nome" required placeholder="Coloque o nome do contato." pattern="[A-Za-zÀ-ú\s]+">
+
+    <label for="telefone">Telefone:</label>
+    <!-- O atributo 'pattern' define o padrão de entrada aceito para o campo de telefone -->
+    <input type="text" id="telefone" required placeholder="Coloque o número para contato." pattern="[0-9]+">
+
+    <button type="submit">Cadastrar</button>
+
+    <!-- Mensagens de erro -->
+    <div class="error-message">Preencha todos os campos corretamente!</div>
+    <div class="error-nome">O nome deve conter apenas letras!</div>
+    <div class="error-telefone">O telefone deve conter apenas números!</div>
+  </form>
+
+  <table id="tabela-contatos">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Telefone</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</body>
+<script src="./main.js"></script>
+
+</html>
